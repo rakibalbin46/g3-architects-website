@@ -67,7 +67,7 @@ nav li a {
 /* Main Styles */
 main {
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 70px auto;
 }
 
 /* Teams styles */
@@ -79,7 +79,6 @@ main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
-  padding: 20px;
 }
 .teams-content {
   padding-left: 70px;
@@ -123,6 +122,15 @@ main {
     font-size: 3rem;
     font-weight: 600;
   }
+  /* Teams features style */
+  .teams-container {
+    flex-direction: column-reverse;
+  }
+  .teams-img-container {
+    margin-top: 1.5rem;
+
+    grid-template-columns: 1fr;
+  }
 }
 
 /* Tablet or Medium devices */
@@ -132,5 +140,12 @@ main {
   }
   nav {
     flex-direction: column;
+  }
+  /* Teams features styles */
+  .teams-container {
+    flex-direction: column-reverse;
+  }
+  .teams-img-container {
+    margin-top: 1.5rem;
   }
 }
