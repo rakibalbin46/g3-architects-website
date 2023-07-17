@@ -8,11 +8,11 @@
   border-radius: 8px;
   border: 0;
   background: #ff900e;
-  padding: 20px 25px;
+  padding: 15px 20px;
   color: #fff;
   text-align: center;
-  font-size: 1.25rem;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 500;
   cursor: pointer;
 }
 /* Header styles */
@@ -64,7 +64,52 @@ nav li a {
   width: 100%;
   margin-top: 20px;
 }
+/* Main Styles */
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
 
+/* Teams styles */
+.teams-container {
+  display: flex;
+  align-items: center;
+}
+.teams-img-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  padding: 20px;
+}
+.teams-content {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.teams-img-container img {
+  width: 100%;
+}
+.teams-title {
+  color: #727272;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+.of-our {
+  color: #131313;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.features {
+  color: #ff900e;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.teams-description {
+  color: #727272;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
 /* .....Responsive styles..... */
 @media screen and (max-width: 576px) {
   header {
@@ -82,10 +127,10 @@ nav li a {
 
 /* Tablet or Medium devices */
 @media screen and (min-width: 576px) and (max-width: 960px) {
-    header {
-        padding: 40px;
-      }
-    nav {
+  header {
+    padding: 40px;
+  }
+  nav {
     flex-direction: column;
   }
 }
