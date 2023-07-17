@@ -15,6 +15,11 @@
   font-weight: 500;
   cursor: pointer;
 }
+.section-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #424242;
+}
 /* Header styles */
 header {
   background: rgba(255, 144, 14, 0.1);
@@ -25,11 +30,7 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-.nav-title {
-  font-size: 2.8rem;
-  font-weight: 700;
-  color: #424242;
-}
+
 nav > ul {
   display: flex;
 }
@@ -109,6 +110,15 @@ main {
   font-weight: 400;
   margin-bottom: 1.5rem;
 }
+
+/* Features styles */
+.features-description {
+  color: #727272;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
 /* .....Responsive styles..... */
 @media screen and (max-width: 576px) {
   header {
