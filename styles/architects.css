@@ -73,7 +73,7 @@ main {
 
 /* Teams styles */
 .quick-features {
-    margin-top: 150px;
+  margin-top: 150px;
 }
 .teams-container {
   display: flex;
@@ -135,6 +135,7 @@ main {
   border: 1px solid #ff900e;
   padding: 30px 20px;
 }
+
 .facts-card-stats {
   font-size: 2.8rem;
   color: #424242;
@@ -142,10 +143,27 @@ main {
   margin-bottom: 10px;
 }
 .facts-card-title {
-    font-size: 1.25rem;
-    color: #727272;
-    font-weight: 600;
-    margin-top: 5px;
+  font-size: 1.25rem;
+  color: #727272;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+/* Sponsors style */
+.sponsors {
+  text-align: center;
+}
+.sponsors-img-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 50px;
+  gap: 40px;
+}
+.sponsors-img-container img {
+  width: 130px;
+  height: 35px;
+
 }
 /* .....Responsive styles..... */
 @media screen and (max-width: 576px) {
@@ -169,6 +187,17 @@ main {
 
     grid-template-columns: 1fr;
   }
+  .facts-card-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .features-description {
+    padding: 5px;
+  }
+  .sponsors-img-container {
+    flex-direction: column;
+    gap: 40px;
+  }
 }
 
 /* Tablet or Medium devices */
@@ -185,5 +214,8 @@ main {
   }
   .teams-img-container {
     margin-top: 1.5rem;
+  }
+  .facts-card-container {
+    gap: 20px;
   }
 }
