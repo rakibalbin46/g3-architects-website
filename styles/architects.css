@@ -72,6 +72,9 @@ main {
 }
 
 /* Teams styles */
+.quick-features {
+    margin-top: 150px;
+}
 .teams-container {
   display: flex;
   align-items: center;
@@ -114,11 +117,36 @@ main {
 /* Features styles */
 .features-description {
   color: #727272;
-  text-align: center;
+  text-align: left;
   font-size: 1rem;
   font-weight: 400;
+  margin-bottom: 40px;
+  margin-top: -30px;
 }
 
+/* facts style */
+.facts-card-container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.card {
+  border-radius: 8px;
+  border: 1px solid #ff900e;
+  padding: 30px 20px;
+}
+.facts-card-stats {
+  font-size: 2.8rem;
+  color: #424242;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.facts-card-title {
+    font-size: 1.25rem;
+    color: #727272;
+    font-weight: 600;
+    margin-top: 5px;
+}
 /* .....Responsive styles..... */
 @media screen and (max-width: 576px) {
   header {
