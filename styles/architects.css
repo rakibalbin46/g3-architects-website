@@ -4,6 +4,9 @@
 * {
   font-family: "Work Sans", sans-serif;
 }
+* {
+   margin: 0px;
+}
 .btn-primary {
   border-radius: 8px;
   border: 0;
@@ -154,8 +157,6 @@ main {
 .love-image img {
   margin-left: 50px;
   width: 100%;
-  
-  
 }
 .ten-years-badge {
   border-radius: 8px;
@@ -170,7 +171,6 @@ main {
 .ten-years-badge h3 {
   font-size: 2.5rem;
   margin: 0;
-
 }
 .ten-years-badge p {
   font-size: 1.5rem;
@@ -227,7 +227,7 @@ main {
 }
 /* Footer styles */
 .footer {
-  width:100%;
+  width: 100%;
   height: 100px;
   border-radius: 8px;
   background: #fff4e7;
@@ -286,7 +286,7 @@ main {
   .footer-description {
     color: #424242;
     text-align: center;
-    font-size: .6rem;
+    font-size: 0.6rem;
     font-weight: 300;
     padding-top: 40px;
   }
@@ -304,7 +304,6 @@ main {
   .ten-years-badge h3 {
     font-size: 2rem;
     margin: 0;
-  
   }
   .ten-years-badge p {
     font-size: 1rem;
